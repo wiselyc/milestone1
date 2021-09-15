@@ -1,0 +1,23 @@
+## Summary
+Allows the user to share their flashcards to other users
+## Actors
+users
+## Preconditions
+* The user has logged in
+* The user created flashcard(s)
+## Triggers
+User clicks on the “share” button
+## Primary Sequence
+The user selects a flashcard to share
+Select who they want to share the flashcard to
+App confirms that flashcards are shared.
+## Primary Postconditions
+* The flashcard gets shared
+* The flashcard does not get shared
+## Alternate Sequences
+*The user shares with an account that does not exist
+The system displays an error message
+The system tells user to share with real account
+### Alternate Trigger
+### Alternate Postconditions
+
