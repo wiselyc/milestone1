@@ -1,0 +1,29 @@
+## Summary
+Let the user type in a text file and the file turns into a flash card.
+## Actors
+The user
+## Preconditions
+* User has to be logged in
+## Triggers
+Customer selects create flash card option
+## Primary Sequence
+App asks the user if they want to create a flash card
+User types whatever they want on the text file
+User can select if they want to add something on the back of the flashcard.
+User selects “Done” if they are finished creating the flashcard.
+System creates the flashcard.
+## Primary Postconditions
+The user creates a flashcard
+Flashcard is saved to folder 
+Flashcard can be viewed whenever they want
+     2. The user does not create a flashcard
+Flashcard is not created
+	 
+## Alternate Sequences
+* The user leaves the text file blank
+The text file is deleted.
+Tells the user to put something in the text file.
+ 
+### Alternate Trigger
+### Alternate Postconditions
+
